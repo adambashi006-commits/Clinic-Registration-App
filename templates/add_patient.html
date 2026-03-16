@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Add Patient</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Add Patient</title>
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<h1>Register New Patient</h1>
+<div class="container" id="registration-container">
+  <h1 class="title" id="page-title">Register New Patient</h1>
 
-<form method="POST" action="/add_patient">
-  <label for="name">Patient Name:</label>
-  <input type="text" id="name" name="name" placeholder="Patient Name" required>
-  <button type="submit">Register</button>
-</form>
+  <form method="POST" action="#" id="registration-form" class="form">
+    <input type="text" name="name" placeholder="Patient Name" required id="patient-name" class="input-text" />
+    <button type="submit" id="register-button" class="btn">Register</button>
+  </form>
 
-<br>
-<a href="/">Back</a>
+  <a href="/" id="back-link" class="link">Back</a>
+</div>
 
 </body>
 </html>
