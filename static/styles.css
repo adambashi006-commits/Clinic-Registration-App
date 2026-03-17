@@ -45,3 +45,7 @@ body {
     outline: none;
     transition: box-shadow 0.3s ease;
   }
+
+  .input-text:focus {
+    box-shadow: 0 0 8px 2px #2575fc;
+  }
