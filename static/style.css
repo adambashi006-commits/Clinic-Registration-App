@@ -24,4 +24,6 @@ body {
     width: 350px;
     text-align: center;
   }
-  
+  .title {
+    margin-bottom: 30px;
+    font-weight: 700;
